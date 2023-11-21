@@ -1,0 +1,61 @@
+Karta pracy 
+
+==========================================================================================================================================================================================================================================================================================================================================
+
+Zad 1
+Wersja HTML           Element			 Zamiennik        
+HTML 4.0:              <font>			   <span> 			
+HTML 4.0:              <CENTER>		 CSS (np. text-align: center;)  		 
+HTML 4.0:              <strike>		 	    <del> 		
+HTML 4.0:              <s>	 	            <del> 		
+HTML 5.0:              <acronym>	       <abbr> I <span>		
+HTML 5.0:             <applet>	                   <canvas>		
+HTML 5.0: 	      <basefont>		    <body>
+HTML 5.0: 	        <big>		            <span>
+HTML 5.0:		<center>         CSS (np. text-align: center;) 
+HTML 5.0:               <font>                    <span>
+
+==========================================================================================================================================================================================================================================================================================================================================
+zadanie 2
+ 1.
+ W HTML 4.0 do obsługi multimediów, takich jak audio i wideo, konieczne było korzystanie z wtyczek, takich jak Flash czy QuickTime.
+W HTML 5.0 wprowadzono wbudowane wsparcie dla elementów <audio> i <video>, które umożliwiają osadzanie plików audio i wideo bez użycia wtyczek zewnętrznych. Ponadto, HTML 5.0 obsługuje skalowalną grafikę wektorową (SVG) oraz element <canvas>, który pozwala na dynamiczne rysowanie grafiki bez konieczności użycia wtyczek.
+2. 
+W HTML 4.0 interakcje na stronach internetowych często wymagały użycia języków skryptowych, takich jak JavaScript, ale brakowało standardowych API dla wielu funkcji, takich jak lokalizacja geograficzna czy przechowywanie danych lokalnie, a w HTML 5.0 jest wiele nowych interaktywnych funkcji i API. 
+3.
+ W HTML 4.0 strony internetowe były głównie tworzone przy użyciu elementów takich jak <div>, <span>, <table> itp., które były używane głównie do określania struktury i stylowania za pomocą CSS. W HTML 5.0 wprowadzono wiele nowych semantycznych elementów, takich jak <header>, <footer>, <nav>, <article>, <section>, które pozwalają 
+na bardziej precyzyjne określenie znaczenia poszczególnych części strony. To ułatwia zarówno programistom, jak i robotom wyszukiwarek zrozumienie struktury dokumentu.
+
+==========================================================================================================================================================================================================================================================================================================================================
+
+zad 3
+HTML 4.0 - https://www.w3.org/TR/html4/
+HTML 4.01 - https://www.w3.org/TR/html401/
+HTML 5.0  - https://dev.w3.org/html5/spec-LC/
+
+==========================================================================================================================================================================================================================================================================================================================================
+
+Zad 1
+Witryna internetowa
+Opis - Witryna internetowa to zbiór stron, adresów URL i podstron, które są umieszczone na jednym serwerze i w ramach jednej domeny. Te strony, zwane stronami internetowymi, zawierają informacje o właścicielu witryny, jego firmie lub na dowolny inny temat.
+Adres URL - https://www.google.com/
+
+Portal internetowy
+Opis - Portal internetowy to taki rodzaj serwisu informatycznego (informacyjnego), poprzez który użytkownicy mają dostęp do nowych informacji z wielu dziedzin. Zazwyczaj portale internetowe zawierają mechanizmy wyszukiwania informacji, plików, stron WWW
+Adres URL - https://twitter.com/?lang=pl
+
+Sklep internetowy
+Opis - Sklep internetowy to rodzaj serwisu z katalogiem produktów lub usług, który umożliwia prowadzenie sprzedaży oraz dokonywanie zakupów za pośrednictwem Internetu. Proces zakupowy realizowany jest najczęściej poprzez dodanie wybranych pozycji do koszyka oraz złożenie zamówienia online.
+Adres URL - https:/allegro.pl/
+
+Blog tekstowy
+Opis - Blog tekstowy odzaj internetowego dziennika, prowadzonego przez regularne publikowanie wpisów tematycznych. Blogowanie przybiera rozmaite formy, począwszy od blogów o charakterze osobistym, poprzez blogi branżowe, na których pojawią się specjalistyczne, w pełni merytoryczne treści.
+Adres URL - https://bedeprogramistka.pl/
+
+Wideoblog
+Opis - Wideoblog rodzaj bloga internetowego, który zamiast postów tekstowych posługuje się materiałem filmowym. Publikowane wideo to najczęściej krótkie, tematyczne realizacje o funkcji informacyjnej, edukacyjnej bądź rozrywkowej. Najpopularniejszymi kanałami dystrybucji vlogerów są: Youtube oraz Twich.
+Adres URL - https://devstyle.pl/2011/02/23/codingtv-pl-videoblog-o-programowaniu/
+==========================================================================================================================================================================================================================================================================================================================================
+
+Zad 2
+PORTAL INTERNETOIWY - JEST TO DUZY SERWIS INTERENTOWY ZAWIERAJCAY INFORMAJE Z DANEJ DZIENIDNY CO WIDAC NA OBRAZKU
