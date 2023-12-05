@@ -1,0 +1,145 @@
+KARTA PRACY NR.1
+====================================================================================================================================================================================
+<li></li>- list item - element listy. Podpunkt listy używany w listach
+<ul></ul>-unordered list - lista nieuporządkowana. Rodzaj listy w HTML. Elementy listy nieuporządkowanej nie są numerowane.
+<ol></ol>- ordered list - lista uporządkowana. Rodzaj listy w HTML. Elementy listy uporządkowanej są numerowane.
+<body></body>-Pomiędzy znacznikami <body> oraz </body> lokujemy wszystkie informacje, które chcielibyśmy umieścić na stronie. Zaktualizujmy teraz nasz dokument o nowy znacznik.    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="I">
+        <li>Punkt pierwszy</li>
+        <ol>
+            <li>Podpunkt 1.1</li>
+                <ol type="A">
+                    <li>Podpunkt 1.1.1</li>
+                    <li>Podpunkt 1.1.2</li>
+                    <li>Podpunkt 1.1.3</li>   
+                </ol>
+                </ol>
+                <ol>
+                    <li>Podpunkt 1.2</li>
+                <ol type="a">
+                    <li>Podpunkt 1.2.1</li>
+                    <li>Podpunkt 1.2.2</li>
+                    <li>Podpunkt 1.2.3</li> 
+                </ol>
+                </ol>
+            </ol>
+    <ol type="I">
+    <li>Punkt drugi</li>
+</ol>
+
+
+</body>
+</html>
+
+====================================================================================================================================================================================
+ZADANIE 1
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład do zadania</title>
+    
+</head>
+
+<body STYLE = "background-color: rgba(98, 64, 64, 0.466);">
+    
+    <span><center> <h1 style="color : red"><pre>               
+         MOŻLIWOŚCI UZYSKIWANIA DODATKOWYCH KWALFIKACJI
+     W ZAWODACH W RAMACH OBSZARU KRZTAŁCENIA OKREŚLONEGO 
+        W KLASYFIKACJI ZAWODÓW SZKOLNICTWA ZAWODOWEGO
+                        </pre></h1></span>
+<pre>Absolwent szkoły krztałcącej w zawodzie <u>technik informatyk</u> po potwierdzeniu kwalfikacji<span>
+    <b>E.12.</b> Montaż i eksploatacja komputerów osobistych i urządzeń peryferyjnych
+    <b>E.13.</b> Projektowanie lokalnych sieci komputerowych i administrowanie sieciami
+    <b>E.14</b> Tworzenie aplikacji internetowych i baz danych i administrowanie bazami
+    może uzyskać dyplom potwierdzający kwalfikację w zawodzie <u>technik teleinformatyk</u> , po  
+    potwierdzeniu dodatkowych kwalfikacji:
+    <b>E.15.</b> Uruchamianie i utrzymywanie terminali i przyłączy abonenckich
+    <b>E.16.</b> Montaż i eksploatacja sieci rozległych</pre></span>
+</center>
+</body>
+
+</html>
+====================================================================================================================================================================================
+ZADANIE PAN TADEUSZ
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman';
+        }
+
+        .imie{
+            font-size: ;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>Adam Mickiewicz</h2>
+        <h2>Pan Tadeusz, czyli Ostatni Zajazd na Litwie</h2>
+    </center>
+        <h3>Księga pierwsza</h3>
+        <h4>Gospodarstwo</h4>
+        <p>Litwo! Ojczyzno moja! ty jesteś jak zdrowie;
+            Ile cię trzeba cenić, ten tylko się dowie,
+            Kto cię stracił. Dziś piękność twą w całej
+            ozdobie Widzę i opisuję, bo tęsknię po tobie.</p>
+
+            <p>Panno Święta, co Jasnej bronisz Częstochowy I w Ostrej świecisz Bramie!
+            Ty, co gród zamkowy Nowogródzki ochraniasz z jego wiernym ludem!
+            Jak mnie dziecko do zdrowia powróciłaś cudem. (Gdy od płaczącej matki pod Twoją opiekę Ofiarowany,
+            martwą podniosłem powiekę I zaraz mogłem pieszo do Twych świątyň progu Iść za wrócone życie podziękować Bogu),
+            Tak nas powrócisz cudem na Ojczyzny łono. Tymczasem przenoś moję duszę utęsknioną Do tych pagórków leśnych, do tych łąk zielonych,
+            Szeroko nad błękitnym Niemnem rozciągnionych; Do tych pól malowanych z bożem rozmaitem, Wyzłacanych pszenicą, posrebrzanych żytem;
+            Gdzie bursztynowy świerzop, gryka jak śnieg biała, Gdzie panieńskim rumieńcem dzięcielina pała, A wszystko przepasane jakby wstęgą,
+            miedzą Zieloną, na niej z rzadka ciche grusze siedzą.</p>
+            <hr>
+            <center><h5>Bartosz Pasek</h5></center>
+    
+</body>
+</html>
+====================================================================================================================================================================================
+ZAD 3
+style	bgcolor		red
+a	href	https://...
+font	face	font-family
+p	text-ALIGN right
+meta	name	viewport
+====================================================================================================================================================================================
+ZADANIE EGZAMINAACYJNE
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>znaKI SPECJALNE </title>
+</head>
+<body>
+    <ol >
+        <li><span>W przypadku prowadzenia samochodu w stanie nietrzeźwości<b> powyżej</b> <b style = "color : red">0,5 promila</b> lub pod wpływem
+    środka odurzającego grozi zakaz prowadzenia pojazdów ><b> 3 lat</b> </li>
+ <li><b>Znak towarowy</b> - prawnie chroniony niepowtarzalny element, skutecznie odróżniający go od 
+    produktów lub usług konkurencyjnych oznaczamy symbolem<sup>TM</sup>
+        </li>
+        <li>Kredyt dla młodych małżeństw może być przeznaczony na zakup mieszkania o powierzchni <<b>50m </b><sup>m</sup></sup>
+            o wartości <b>20 000$</b></li></span>
+            
+    </ol>
+</body>
+</html>
+===================================================================================================================================================================================
