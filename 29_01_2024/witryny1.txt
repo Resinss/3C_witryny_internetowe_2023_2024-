@@ -1,0 +1,250 @@
+===================================================================================
+Zad 1
+  <!DOCTYPE html>
+    <html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaz logownia</title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <span>Login:</span><input type="text" name="" id="">
+            <br>
+            <br>
+            <span>Hasło:</span><input type="password" name="" id="">
+            <br>
+            <br>
+            <button><img src="wyslij.png" alt=""></button>
+        </div>
+    </body>
+    </html>
+=====================================================================================
+Zad 2
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalendarz</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-left: 10%;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .bez {
+      background-color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+  <center><h2>Luty 2024</h2></center>
+  <table>
+    <thead>
+      <tr>
+        <th>Pon</th>
+        <th>Wt</th>
+        <th>Śr</th>
+        <th>Czw</th>
+        <th>Piąt</th>
+        <th>Sob</th>
+        <th>Niedz</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bez" colspan="5"></td>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td class="bez" colspan="1"></td>
+        <td class="bez" colpan="1"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+====================================================================================
+Zad 3
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+</head>
+<body>
+    <style>
+        table{
+          border-collapse: collapse;
+        }
+
+        .green{
+            background-color: green;
+        }
+
+        .lblue{
+            background-color: lightblue;
+        }
+
+        .brown{
+            background-color: brown;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        th, td{
+          border: 2px solid red;
+          padding: 10px;
+        }
+      </style>
+      <center>
+      <table>
+        <tr class="green">
+          <th colspan="3">Nagłówek na zielonym tle</th>
+        </tr>
+        <tr class="lblue">
+          <th>nagłówek1</th>
+          <th>nagłówek2</th>
+          <th>nagłówek3</th>
+        </tr>
+        <tr class="brown">
+          <td>komórka 1</td>
+          <td>komórka 2</td>
+          <td>komórka 3</td>
+        </tr>
+        <tr class="blue">
+          <td>komórka 4</td>
+          <td>komórka 5</td>
+          <td>komórka 6</td>
+        </tr>
+      </table>
+    </center>
+</body>
+</html>
+====================================================================================
+Zad 4
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            color: #fff;
+        }
+
+        .c{
+            font-size: 20px;
+            background-color: green;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="c">
+            Imie
+            <input type="text">
+            <br>
+            Nazwisko
+            <input type="text">
+            <br>
+            <label>pleć</label>
+            <select>
+              <option value="męrzczyzna">męszczyzna</option>
+              <option value="kobieta">kobieta</option>
+            </select>
+            <br>
+            <label>nr klasy</label>
+            <select>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+            </select> 
+            <br>
+            <label>Przedmiot</label>
+            <select>
+              <option value="polski">polski</option>
+              <option value="angielski">angielski</option>
+              <option value="matematyka">matematyka</option>
+            </select> 
+            <br>
+            Uwag
+            <input tye="text">
+            <br>
+            <br>
+            <input type="button">
+            <input type="button">
+        </div>
+    </center>
+</body>
+</html>
+====================================================================================
+zad 1
+d
+
+zad 2
+b
+
+zad 3
+a
+
+zad 4
+b
+
+zad 5
+a
+========================================================================================
