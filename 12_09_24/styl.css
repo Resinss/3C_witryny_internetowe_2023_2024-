@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(175, 173, 170);
+}
+
+.witam {
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    background-color: rgb(72, 133, 124);
+    border: 8px solid whitesmoke;
+}
+
+.text {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(72, 54, 90);
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+.info {
+    background-color: rgb(78, 107, 101);
+    line-height: 2,5;
+    border: 8px solid black;
+    color: black;
+    font-size: xx-large;
+}
+
+.słowa {
+    color: rgb(118, 89, 126);
+    font-size: x-large;
+    font-style: oblique;
+    font-variant: small-caps;
+}
