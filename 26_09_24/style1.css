@@ -1,0 +1,8 @@
+ul, li {display : inline; margin: 0; padding: 0;}
+ul {width: 150px;}
+
+ul a:link { display: inline; width: 140px;
+    background-color: #99ff66;
+    color: #ff3366;
+    padding: 4px;
+    border: 3px outset #003300}
