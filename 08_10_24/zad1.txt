@@ -1,0 +1,9 @@
+Roka powstania                          4.12.1995
+Głowny autor                            Brendan Eich   
+Wykonywany po stronie klienta/serwera   JavaScript umożliwia tworzenie interaktywnych i dynamicznych stron internetowych oraz aplikacji.  
+Numer ostatnioej wersji                 ECMAScript 2024 (czerwiec 2024) [±]      
+
+Roka powstania                          1995
+Głowny autor                            Rasmus Lerdorf
+Wykonywany po stronie klienta/serwera   Skrypty pisane w PHP są umieszczane w kodzie HTML i wykonywane po stronie serwera. Klient otrzymuje tylko wynik wykonania skryptu.
+Numer ostatnioej wersji                 8.3.10 (1 sierpnia 2024)

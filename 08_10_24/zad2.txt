@@ -1,0 +1,5 @@
+Zaleta:
+Jedną z kluczowych zalet skryptów po stronie klienta jest ich zdolność do zwiększania interaktywności i interfejsu użytkownika witryny 
+
+Wada:
+Mogą być podatne na ataki, takie jak wstrzykiwanie kodu i kradzież danych.

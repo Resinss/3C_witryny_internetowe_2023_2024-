@@ -1,0 +1,5 @@
+zad1   HTML
+zad2   PHP
+zad3    JS
+zad4    A
+zad5    D

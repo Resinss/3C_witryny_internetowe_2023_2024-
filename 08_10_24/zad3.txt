@@ -1,0 +1,4 @@
+Zaleta;
+Ponieważ są wykonywane na serwerze, kod skryptu nie jest dostępny dla użytkownika, co oznacza, że ​​jest mniej podatny na ataki i nadużycia.
+Wada:
+ Ponieważ skrypty są wykonywane na serwerze, każde żądanie musi być przetworzone przez serwer, co może prowadzić do dłuższego czasu odpowiedzi.
