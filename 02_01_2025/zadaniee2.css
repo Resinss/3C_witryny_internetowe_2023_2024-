@@ -1,0 +1,8 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 20px; /*przesuniecei o 20 w dół */
+    left:30px; /*przesuniecei o 30 w prawo */
+}
