@@ -1,0 +1,10 @@
+.fixed-header {
+  width: 100%;
+  background-color: #2d78c4;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
