@@ -1,0 +1,78 @@
+body{
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 11%, rgba(21,204,39,1) 100%);
+background-repeat: no-repeat;
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    padding: 10px 15px;
+    margin:5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.imgs{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    scale: 50px;
+    z-index: 1;
+}
+nav a{
+    padding:10px 15px;
+    margin:5px;
+    font-size: 16px;
+    cursor:pointer;
+    color: white;
+}
+
+nav a:visited{
+    color:white;
+}
+.witamy{
+    background: rgb(204,122,21);
+    padding:20px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding:20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content{
+    background: rgb(195,122,1);
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table {
+    width: 75%;
+    margin: 20px;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    background: rgb(124, 78, 0);
+}
+th, td {
+    border: 1px solid rgb(196, 106, 1);
+    padding:10px;
+}
+
+th{
+    background: rgb(163, 35, 35);
+}
+footer{
+    background: rgb(130, 49, 0);
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+}
