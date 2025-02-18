@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" style="width:100px; height:100px; background-color:blue;"></div> 
+<script> 
+    let box = document.getElementById("box"); 
+    box.addEventListener("mouseover", function() { 
+    box.style.backgroundColor = "red"; 
+    }); 
+    box.addEventListener("mouseout", function() { 
+    box.style.backgroundColor = "blue"; 
+    }); 
+    </script>
+        <input type="text" id="my Input"> 
+    <script> 
+    document.getElementById("myInput").addEventListener("keydown", function (event) { 
+    console.log("Naciśnięto klawisz: "+event.key); 
+    }); 
+    </script>
+    <form id="myForm"> 
+        <input type="text" name="username"> 
+        <button type="submit">Wyślij</button> 
+        </form> 
+        <script> 
+        document.getElementById("myForm").addEventListener("submit", function(event) { 
+        event.preventDefault(); // Zapobiega domyślnemu wysłaniu formularza 
+        alert("Formularz wysłany!"); 
+        }); 
+        </script>
+        <script> 
+            window.addEventListener("scroll", function() { 
+            console.log("Przewijasz stronę!"); 
+            }); 
+            </script>
+            <ul id="myList"> 
+                <li>Kliknij mnie</li> 
+                <li>Kliknij mnie</li> 
+                <li>Kliknij mnie</li> 
+                </ul> 
+                <script> 
+                document.getElementById("myList").addEventListener("click", function(event) { 
+                if (event.target.tagName=== "LI") { 
+                alert("Kliknięto:" + event.target.textContent); 
+                } 
+                }); 
+                </script>
+</body>
+</html>
