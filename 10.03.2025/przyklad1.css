@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    /*Te reguły zaaplikują sie tylko na ekranach <= 600px */
+    .menu {
+        display: none;
+    }
+    .header {
+        font-size: 1.2rem;
+    }
+}
+@media print {
+    body{
+        font-size: 12pt;
+        color: black;
+        background: white;
+    }
+    nav, footer {
+        display: none; /*Ukrywamy elementy nie istotne w wydruku*/
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(32, 89, 214);
+        color: rgb(219, 25, 25);
+    }
+}
