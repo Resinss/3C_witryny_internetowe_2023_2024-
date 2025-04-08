@@ -1,13 +1,12 @@
-document.getElementById("numberForm").addEventListener("submit", function(event) {
-    event.preventDefault();
 
-    const formData = new FormData(event.target);
-    const numbers = [
-        Number(formData.get("number1")),
-        Number(formData.get("number2")),
-        Number(formData.get("number3")),
-        Number(formData.get("number4")),
-        Number(formData.get("number5"))
+function wyswietl() {
+    let liczby = [
+        document.getElementById("num1").value,
+        document.getElementById("num2").value,
+        document.getElementById("num3").value,
+        document.getElementById("num4").value,
+        document.getElementById("num5").value
     ];
-    document.getElementById("arrayDisplay").textContent = "Tablica:" + numbers.join(",");
-});
+    document.getElementById("wynik").innerText = "Tablica: " + liczby.join(", ");
+}
+

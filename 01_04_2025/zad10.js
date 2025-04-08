@@ -1,1 +1,22 @@
-//Sprawdź, czy w tablicy znajduje się liczba 10, w której znajdą się dane pobrane od użytkownik, które wpisze do formularza w HTM
+function sprawdz10() {
+    let liczby = [
+        parseFloat(document.getElementById("num1").value),
+        parseFloat(document.getElementById("num2").value),
+        parseFloat(document.getElementById("num3").value),
+        parseFloat(document.getElementById("num4").value),
+        parseFloat(document.getElementById("num5").value)
+    ]; 
+    let znaleziono = false;
+    for (let i =0 ; i< liczby.length ; i++){
+        if(liczby[i] === 10) {
+            znaleziono = true;
+            break;
+        }
+    }
+
+    if(znaleziono) {
+        document.getElementById("wynik").innerText = "Znaleziono ";
+    } else {
+        document.getElementById("wynik").innerText = "Nie znaleziono";
+    }
+}
