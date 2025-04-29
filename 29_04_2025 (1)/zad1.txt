@@ -1,0 +1,23 @@
+zad 1
+jednowymiarowe - np. lista imion w klasie ["Anna", "Jan"]
+
+wielowymiarowe -  np. do przetrzymywania danch: 
+	  const tab = [
+   	["Marcin", 183, "red", "kot"],
+    	["Ania", 173, "blue", "pies"],
+    	["Agnieszka", 170, "yellow", "świnka"]
+	]
+
+	console.log(`
+   	 imię:       ${tab[0][0]}
+    	wzrost:     ${tab[0][1]}
+    	kolor:      ${tab[0][2]}
+   	 zwierzak:   ${tab[0][3]}
+	`);
+
+Asocjacyjne - W języku JavaScript każdy obiekt jest tablicą asocjacyjną.
+
+var tab_asoc = {};
+tab_asoc["klucz"]="wartość";
+//co jest równoważne
+tab_asoc.klucz="wartość";

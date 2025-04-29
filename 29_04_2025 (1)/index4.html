@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>kolory</h1>
+    <script>
+        const kolory = {
+            pomaranczowy:'rgb(255, 172, 28)',
+            zolty: 'rgb(255,222,33)',
+            fioletowy: 'rgb(128,0,128)',
+        };
+        
+        document.write('<table border="1">');
+            for (let kolor in kolory) {
+            document.write('<tr>');
+            document.write('<td>' + kolor + '</td>');
+            document.write('<td>' + kolory[kolor] + '</td>');
+            document.write('</tr>');
+            }
+            document.write('</table>');
+    </script>
+</body>
+</html>
